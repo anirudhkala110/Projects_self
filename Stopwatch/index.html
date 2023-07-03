@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop watch</title>
+</head>
+<body>
+    
+    <div class="outer-container">
+        <div class="styling1">
+        </div>
+        <div class="styling2">
+        </div>
+        <div class="styling3">
+        </div>
+        <div class="styling4">
+        </div>
+        <div class="container">
+            <div class="timer-display">
+                00 : 00 : 00 : 00
+            </div>
+            <ul class="laps"></ul>
+            <div class="bg">
+                <img src="./images/stopwatchbackgroud.jpg" alt="" srcset="">
+            </div>
+            <div class="action">
+                <button id="startTimer" onclick="start()"><img src="./images/png-clipart-line-triangle-brand-play-button-play-button-icon-angle-text-thumbnail.png" height="20px" width="20px">Start</button>
+                <button id="pauseTimer" onclick="pause()"><img src="./images/pause.png" height="20px" width="20px">Pause</button>
+                <button id="resetTimer" onclick="reset()"><img src="./images/reset.png" height="20px" width="20px">Reset</button>
+                <button id="restartTimer" onclick="restart()"><img src="./images/restart.jpg" height="20px" width="20px">Restart</button>
+                <button id="laps" onclick="lap()"><img src="./images/laps.png" height="20px" width="20px">Laps</button>
+                <button id="resetLaps" onclick="resetlaps()"><img src="./images/resetlap.png" height="20px" width="20px">Reset Laps</button>
+            </div>
+        </div>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
